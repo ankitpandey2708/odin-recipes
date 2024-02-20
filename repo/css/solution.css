@@ -1,0 +1,38 @@
+* {
+/*  outline: 1px solid red;*/
+  background-color: #eee;
+    box-sizing: border-box;
+  }
+
+.card {
+ background-color: white;
+ margin: 16px auto;
+ padding: 8px;
+}
+
+.title {
+  padding: 8px;
+    background-color: #e3f4ff;
+   margin-bottom: 8px;
+   
+}
+
+.content {
+  padding:16px 8px;
+     background-color: #e3f4ff;
+      margin-bottom: 8px;
+}
+
+
+.button-container {
+  padding: 8px;
+      background-color: #e3f4ff;
+     text-align: center;
+}
+
+button {
+  padding: 8px 24px ;
+     background-color: white;
+       display: block;
+       margin: 2px auto;
+}
