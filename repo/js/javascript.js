@@ -1,7 +1,10 @@
-let admin, name; // can declare two variables at once
+let counter = 1;
+alert( 2 * ++counter );
 
-name = "John";
 
-admin = name;
+let count = 1;
+alert( 2 * count++ );
 
-alert( admin );
+let abc = 1;
+abc++
+alert( 2 * abc );
