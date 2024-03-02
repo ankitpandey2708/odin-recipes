@@ -12,13 +12,18 @@ let apples = "2";
 let oranges = "3";
 alert( +apples + +oranges ); 
 
-alert( "2" =='2' );  // true
-alert( "2" == 2 );  // true
-alert( null == undefined ); // true
-alert( null > 0 );  // (1) false
-alert( null == 0 ); // (2) false
-alert( null >= 0 ); // (3) true
+alert( "2" =='2' );  
+alert( "2" == 2 );  
 
+alert( null > 0 );  // (1) false
+alert( null == 0 ); // // The values null and undefined equal == each other and do not equal any other value.
+alert( null >= 0 ); // For maths and other comparisons < > <= >=      null/undefined are converted to numbers: null becomes 0, while undefined becomes NaN. 
+
+alert( undefined > 0 ); // false (1)
+alert( undefined < 0 ); // false (2)
+alert( undefined == 0 ); // false (3)
+
+alert( null == undefined ); // The values null and undefined equal == each other and do not equal any other value.
 
 
 let str = "Hello";
