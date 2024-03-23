@@ -1,0 +1,34 @@
+.game {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+.player-tools {
+    display: flex;
+    margin-bottom: 20px;
+    
+}
+
+.player-tools button {
+    padding: 10px;
+    margin-right: 10px;
+    background-color:#007bff;  
+}
+
+.player-tools button:hover {
+    background-color: #0056b3;
+}
+
+.grid-box {
+    border:0.5px solid #000000 ;
+    display: grid;
+    grid-gap: 0.5px;
+}
+
+.grid-item { 
+    width: 1.5rem;
+    height: 1.5rem;
+    border: 0.5px solid #000000;
+}
